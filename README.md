@@ -3,14 +3,8 @@
 
 ❗Updated at 2024-08-28.
 ## Content:
-- [Dichotomous-Image-Segmentation](#Dichotomous-Image-Segmentation)
 - [Non-Prompt](#Non-Prompt)
 - [Promptable](#Promptable)
-## Dichotomous-Image-Segmentation
-### 2022
-| **Year** | **Pub.** | **Title**                                      | **Author**                                                                                    | **Links**                                                                                                                                                                                                                                                                        |
-| -------- | -------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2022     | ECCV     | Highly Accurate Dichotomous Image Segmentation | Qin, Xuebin and Dai, Hang and Hu, Xiaobin and Fan, Deng-Ping and Shao, Ling and Van Gool, Luc | [Paper]([[2203.03041] Highly Accurate Dichotomous Image Segmentation (arxiv.org)](https://arxiv.org/abs/2203.03041))/[Code]([xuebinqin/DIS: This is the repo for our new project Highly Accurate Dichotomous Image Segmentation (github.com)](https://github.com/xuebinqin/DIS)) |
 
 ## Non-Prompt
 ### Preprint
@@ -30,7 +24,11 @@
 | **Year** | **Pub.** | **Title**                                                                                  | **Author**                                                                 | **Links**                                                                                                                                                                                                                                                                                                                                                 |
 | -------- | -------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 2023     | NIPS     | SegRefiner: Towards Model-Agnostic Segmentation Refinement with Discrete Diffusion Process | Mengyu Wang, Henghui Ding, Jun Hao Liew, Jiajun Liu, Yao Zhao, Yunchao Wei | [Paper]([[2312.12425] SegRefiner: Towards Model-Agnostic Segmentation Refinement with Discrete Diffusion Process (arxiv.org)](https://arxiv.org/abs/2312.12425))/[Code]([MengyuWang826/SegRefiner: SegRefiner: Towards Model-Agnostic Segmentation Refinement with Discrete Diffusion Process (github.com)](https://github.com/MengyuWang826/SegRefiner)) |
+### 2022
 
+| **Year** | **Pub.** | **Title**                                      | **Author**                                                                                    | **Links**                                                                                                                                                                                                                                                                        |
+| -------- | -------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2022     | ECCV     | Highly Accurate Dichotomous Image Segmentation | Qin, Xuebin and Dai, Hang and Hu, Xiaobin and Fan, Deng-Ping and Shao, Ling and Van Gool, Luc | [Paper]([[2203.03041] Highly Accurate Dichotomous Image Segmentation (arxiv.org)](https://arxiv.org/abs/2203.03041))/[Code]([xuebinqin/DIS: This is the repo for our new project Highly Accurate Dichotomous Image Segmentation (github.com)](https://github.com/xuebinqin/DIS)) |
 ## Promptable
 ### Preprint
 
