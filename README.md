@@ -1,12 +1,13 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
+
 ❗Updated at 2024-08-28.
 ## Content:
-- [[#Dichotomous Image Segmentation]]
-- [[#Prompt-guided]]
-- [[#Non-Prompt]]
+- [Dichotomous-Image-Segmentation](#Dichotomous-Image-Segmentation)
+- [Prompt-guided](#Prompt-guided)
+- [Non-Prompt](#Non-Prompt)
 
-## Dichotomous Image Segmentation
+## Dichotomous-Image-Segmentation
 ### 2022
 | **Year** | **Pub.** | **Title**                                      | **Author**                                                                                    | **Links**                                                                                                                                                                                                                                                                        |
 | -------- | -------- | ---------------------------------------------- | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
