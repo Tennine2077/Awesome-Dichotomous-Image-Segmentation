@@ -2,6 +2,14 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ❗Updated at 2024-08-28.
+#### If you like our project, please give us a star ⭐ on GitHub for latest update.
+
+Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
+
+An example instance of an image, its ground truth, and the segmentation for this task are shown in the figure below.
+
+![image](https://github.com/Tennine2077/Awesome-Dichotomous-Image-Segmentation/blob/main/imgs/compare.jpg)
+
 ## Content:
 - [Non-Promptable](#Non-Promptable)
 - [Promptable](#Promptable)
