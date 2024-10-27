@@ -1,7 +1,7 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
-❗Updated at **2024-10-12**.
+❗Updated at **2024-10-27**.
 #### If you like our project, please give us a star ⭐ on GitHub for latest update.
 
 Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
@@ -22,7 +22,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 ### 2024
 | **Year** | **Pub.** | **Title**                                                                                      | **Author**                                                                                 | **Links**                                                                                                                                                                                            |
 | -------- | -------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024     | NeurIPS  | MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation | Haotian Qian, Yinda Chen, Shengtao Lou, Fahad Khan, Xiaogang Jin, Deng-Ping Fan            | Paper/Code                                                                                                                                                                                           |
+| 2024     | NeurIPS  | MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation | Haotian Qian, Yinda Chen, Shengtao Lou, Fahad Khan, Xiaogang Jin, Deng-Ping Fan            | Paper/[Code](https://github.com/ydchen0806/MaskFactory)                                                                                                                                              |
 | 2024     | CVPR     | Multi-view Aggregation Network for Dichotomous Image Segmentation                              | Qian Yu, Xiaoqi Zhao, Youwei Pang, Lihe Zhang, Huchuan Lu                                  | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Multi-view_Aggregation_Network_for_Dichotomous_Image_Segmentation_CVPR_2024_paper.html)/[Code](https://github.com/qianyu-dlut/MVANet) |
 | 2024     | CAAI AIR | Bilateral Reference for High-Resolution Dichotomous Image Segmentation                         | Peng Zheng, Dehong Gao, Deng-Ping Fan, Li Liu, Jorma Laaksonen, Wanli Ouyang, Nicu Sebe    | [Paper](https://arxiv.org/abs/2401.03407)/[Code](https://github.com/ZhengPeng7/BiRefNet)                                                                                                             |
 | 2024     | TNNLS    | High-Precision Dichotomous Image Segmentation With Frequency and Scale Awareness               | Qiuping Jiang, Jinguang Cheng, Zongwei Wu, Runmin Cong, Radu Timofte                       | [Paper](https://ieeexplore.ieee.org/abstract/document/10638122/authors#authors)/[Code](https://github.com/chasecjg/FSANet)                                                                           |
