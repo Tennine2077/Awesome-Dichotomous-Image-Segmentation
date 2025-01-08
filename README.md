@@ -1,7 +1,7 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
-❗Updated at **2024-12-29**.
+❗Updated at **2025-1-8**.
 #### If you like our project, please give us a star ⭐ on GitHub for latest update.
 
 Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
@@ -46,7 +46,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 | -------- | -------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | 2023     | arXiv    | Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation         | Xianjie Liu, Keren Fu, Qijun Zhao                             | [Paper](https://arxiv.org/abs/2401.00248)/[Code](https://github.com/Tennine2077/DIS-SAM)   |
 | 2023     | arXiv    | SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes | Yiran Song, Qianyu Zhou, Xuequan Lu, Zhiwen Shao, Lizhuang Ma | [Paper](https://arxiv.org/abs/2401.17803)/[Code](https://github.com/zongzi13545329/SimAda) |
-| 2024     | arXiv    | Order-aware Interactive Segmentation                                                            | Bin Wang, Anwesa Choudhuri, Meng Zheng, Zhongpai Gao, Benjamin Planche, Andong Deng, Qin Liu, Terrence Chen, Ulas Bagci, Ziyan Wu | [Paper](https://arxiv.org/abs/2410.12214))/Code |
+| 2024     | arXiv    | Order-aware Interactive Segmentation                                                            | Bin Wang, Anwesa Choudhuri, Meng Zheng, Zhongpai Gao, Benjamin Planche, Andong Deng, Qin Liu, Terrence Chen, Ulas Bagci, Ziyan Wu | [Paper](https://arxiv.org/abs/2410.12214)/Code |
 ### 2024
 | **Year** | **Pub.** | **Title**                                                                                   | **Author**                                                                                   | **Links**                                                                                                                                                                                                                                                                                                            |
 | -------- | -------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
