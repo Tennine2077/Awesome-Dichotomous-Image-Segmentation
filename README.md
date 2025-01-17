@@ -1,7 +1,7 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
-❗Updated at **2025-1-8**.
+❗Updated at **2025-1-17**.
 #### If you like our project, please give us a star ⭐ on GitHub for latest update.
 
 Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
@@ -20,6 +20,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 | -------- | -------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
 | 2024     | arXiv    | High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity | Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu                         | [Paper](https://arxiv.org/abs/2410.10105)/Code                                           |
 | 2024     | arXiv    | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?      | Guangkai Xu, Yongtao Ge, Mingyu Liu, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen | [Paper](https://arxiv.org/abs/2403.06090)/[Code](https://github.com/aim-uofa/GenPercept) |
+| 2024     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation      | Maxwell Meyer, Jack Spruyt | [Paper](https://arxiv.org/abs/2501.06230)/Code |
 ### 2024
 | **Year** | **Pub.** | **Title**                                                                                      | **Author**                                                                                 | **Links**                                                                                                                                                                                            |
 | -------- | -------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
