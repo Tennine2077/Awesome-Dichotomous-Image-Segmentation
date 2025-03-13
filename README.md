@@ -1,7 +1,7 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
-❗Updated at **2025-2-20**.
+❗Updated at **2025-3-13**.
 #### If you like our project, please give us a star ⭐ on GitHub for latest update.
 
 Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
@@ -16,14 +16,16 @@ An example instance of an image, its ground truth, and the segmentation for this
 ## Non-Promptable
 ### Preprint
 
-| **Year** | **Pub.** | **Title**                                                               | **Author**                 | **Links**                                                                         |
-| -------- | -------- | ----------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------- |
-| 2024     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation | Maxwell Meyer, Jack Spruyt | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN) |
+| **Year** | **Pub.** | **Title**                                                                                                    | **Author**                        | **Links**                                                                               |
+| -------- | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------- |
+| 2025     | arXiv    | Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
+| 2024     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation                                      | Maxwell Meyer, Jack Spruyt        | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN)       |
 ### 2025
-| **Year** | **Pub.** | **Title**                                                                          | **Author**                                                                                             | **Links**                                                                                |
-| -------- | -------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- |
-| 2025     | ICLR     | High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity       | Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu                         | [Paper](https://arxiv.org/abs/2410.10105)/Code                                           |
-| 2025     | ICLR     | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks? | Guangkai Xu, Yongtao Ge, Mingyu Liu, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen | [Paper](https://arxiv.org/abs/2403.06090)/[Code](https://github.com/aim-uofa/GenPercept) |
+| **Year** | **Pub.** | **Title**                                                                               | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
+| -------- | -------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2025     | ICLR     | High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity            | Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu                         | [Paper](https://arxiv.org/abs/2410.10105)/[Code](https://github.com/qianyu-dlut/DiffDIS)                                                                                                         |
+| 2025     | ICLR     | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?      | Guangkai Xu, Yongtao Ge, Mingyu Liu, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen | [Paper](https://arxiv.org/abs/2403.06090)/[Code](https://github.com/aim-uofa/GenPercept)                                                                                                         |
+| 2025     | PR       | S$^2$DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation | Shuhan Chen, Haonan Tang, Yuan Huang, Lifeng Zhang,, Xuelong Hu                                        | [Paper](https://www.sciencedirect.com/science/article/pii/S0031320325001669)/[Code](https://github.com/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation) |
 ### 2024
 | **Year** | **Pub.** | **Title**                                                                                      | **Author**                                                                                 | **Links**                                                                                                                                                                                            |
 | -------- | -------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
