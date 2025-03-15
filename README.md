@@ -1,7 +1,17 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
-❗Updated at **2025-3-13**.
+```
+❗2025/03/15 Add a paper on ArXiv 'Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior'.
+2025/03/10 Add a paper on PR 'S2DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation'.
+2025/02/20 Add a paper on ESWA 'An Edge-Guided SAM for effective complex object segmentation'.
+2025/01/17 Add a paper on ArXiv 'BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation'.
+2024/12/15 Paper 'Diffusion Models Trained with Large Data Are Transferable Visual Models' change to 'What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?'.
+2024/11/16 Add a paper 'High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity'.
+2024/10/12 Add a paper on NerIPS 'MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation'.
+2024/09/11 Add a paper on CVIU 'Dual cross-enhancement network for highly accurate dichotomous image segmentation'.
+2024/08/27 Created the list.
+```
 #### If you like our project, please give us a star ⭐ on GitHub for latest update.
 
 Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
