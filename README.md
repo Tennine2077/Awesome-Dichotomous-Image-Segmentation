@@ -18,7 +18,7 @@ Highly Accurate Dichotomous Image Segmentation presents a new task called Dichot
 
 An example instance of an image, its ground truth, and the segmentation for this task are shown in the figure below.
 
-![image](imgs/compare.jpg)
+![image](imgs/compare3.png)
 
 ## Content:
 - [Non-Promptable](#Non-Promptable)
