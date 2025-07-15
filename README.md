@@ -2,7 +2,8 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ```
-❗2025/05/25 Add a paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
+❗2025/07/15 Add a paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
+2025/05/25 Add a paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
 2025/03/24 Change a paper from ArXiv to ICME 'DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation'.
 2025/03/15 Add a paper on ArXiv 'Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior'.
@@ -48,6 +49,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 | 2024     | TNNLS    | High-Precision Dichotomous Image Segmentation With Frequency and Scale Awareness               | Qiuping Jiang, Jinguang Cheng, Zongwei Wu, Runmin Cong, Radu Timofte                       | [Paper](https://ieeexplore.ieee.org/abstract/document/10638122/authors#authors)/[Code](https://github.com/chasecjg/FSANet)                                                                           |
 | 2024     | CVIU     | Dual cross-enhancement network for highly accurate dichotomous image segmentation              | Hongbo Bi, Yuyu Tong, Pan Zhang, Jiayuan Zhang, Cong Zhang                                 | [Paper](https://www.sciencedirect.com/science/article/pii/S1077314224002030)/[Code](https://github.com/tongyuyu/DCENet)                                                                              |
 | 2024     | TVC      | Boundary-aware dichotomous image segmentation                                                  | Tang, Haonan and Chen, Shuhan and Liu, Yang and Wang, Shiyu and Chen, Zeyu and Hu, Xuelong | [Paper](https://link.springer.com/article/10.1007/s00371-024-03295-5)\|[Code](https://github.com/m0ho/Boundary-Aware-Dichotomous-Image-Segmentation)                                                 |
+| 2024     | PR       | DC-Net: Divide-and-conquer for salient object detection                                        | Jiayi Zhu, Xuebin Qin and Abdulmotaleb Elsaddik                                            | [Paper](https://www.sciencedirect.com/science/article/pii/S003132032400654X)\|[Code](https://github.com/PiggyJerry/DC-Net)                                                                           |
 ### 2023
 | **Year** | **Pub.** | **Title**                                                                                               | **Author**                                                           | **Links**                                                                                        |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
