@@ -2,7 +2,8 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ```
-❗2025/07/15 Add a paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
+❗2025/07/20 Add a paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
+2025/07/15 Add a paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
 2025/05/25 Add a paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
 2025/03/24 Change a paper from ArXiv to ICME 'DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation'.
@@ -37,6 +38,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 ### 2025
 | **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
 | -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2025     | ICCV     | LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | Paper/[Code](https://github.com/XinyuYanTJU/LawDIS)                                                                                                                                              |
 | 2025     | ICLR     | High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity         | Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu                         | [Paper](https://arxiv.org/abs/2410.10105)/[Code](https://github.com/qianyu-dlut/DiffDIS)                                                                                                         |
 | 2025     | ICLR     | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?   | Guangkai Xu, Yongtao Ge, Mingyu Liu, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen | [Paper](https://arxiv.org/abs/2403.06090)/[Code](https://github.com/aim-uofa/GenPercept)                                                                                                         |
 | 2025     | PR       | S2DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation | Shuhan Chen, Haonan Tang, Yuan Huang, Lifeng Zhang,, Xuelong Hu                                        | [Paper](https://www.sciencedirect.com/science/article/pii/S0031320325001669)/[Code](https://github.com/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation) |
