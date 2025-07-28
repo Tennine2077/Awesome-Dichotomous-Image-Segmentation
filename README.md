@@ -2,7 +2,7 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ```
-❗2025/07/20 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
+❗2025/07/28 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
 2025/07/15 Add a Non-Promptable paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
 2025/05/25 Add a Promptable paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
