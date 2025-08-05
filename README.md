@@ -2,7 +2,7 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ```
-❗2025/07/28 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
+❗2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
 2025/07/15 Add a Non-Promptable paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
 2025/05/25 Add a Promptable paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
@@ -72,7 +72,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 ### 2025
 | **Year** | **Pub.** | **Title**                                                                                        | **Author**                                                                                                                        | **Links**                                                                                                               |
 | -------- | -------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2025     | ICCV     | LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | Paper/[Code](https://github.com/XinyuYanTJU/LawDIS)                                                                                                                                              |
+| 2025     | ICCV     | LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | [Paper](https://arxiv.org/abs/2508.01152)/[Code](https://github.com/XinyuYanTJU/LawDIS)                                                                                                                                              |
 | 2025     | ICLR     | Order-aware Interactive Segmentation                                                             | Bin Wang, Anwesa Choudhuri, Meng Zheng, Zhongpai Gao, Benjamin Planche, Andong Deng, Qin Liu, Terrence Chen, Ulas Bagci, Ziyan Wu | [Paper](https://arxiv.org/abs/2410.12214)/Code                                                                          |
 | 2025     | ICME     | DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation | Xianjie Liu, Keren Fu, Yao Jiang, Qijun Zhao                                                                                      | [Paper](https://arxiv.org/abs/2401.00248)/[Code](https://github.com/Tennine2077/DIS-SAM)                                |
 | 2025     | ESWA     | An Edge-Guided SAM for effective complex object segmentation                                     | Longyi Chen , Xiandong Wang, Fengqin Yao, Mingchen Song, Jiaheng Zhang, Shengke Wang                                              | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417425001824)/[Code](https://github.com/code-797/EG-SAM) |
