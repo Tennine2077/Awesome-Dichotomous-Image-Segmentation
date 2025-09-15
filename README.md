@@ -2,7 +2,8 @@
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
 ```
-❗2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
+❗2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
+2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
 2025/07/15 Add a Non-Promptable paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
 2025/05/25 Add a Promptable paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
@@ -66,6 +67,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 
 | **Year** | **Pub.** | **Title**                                                                                       | **Author**                                                                                                                        | **Links**                                                                                  |
 | -------- | -------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| 2025     | arXiv    | SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks | Xinyu Xiong, Zihuang Wu, Lei Zhang, Lei Lu, Ming Li, Guanbin Li                               | [Paper](https://arxiv.org/abs/2508.03566)/[Code](https://github.com/WZH0120/SAM2-UNeXT) |
 | 2025     | arXiv    | MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation | Haoran Shen, Peixian Zhuang, Jiahao Kou, Yuxin Zeng, Haoying Xu, Jiangyun Li                               | [Paper](https://arxiv.org/abs/2503.23786)/[Code](https://github.com/sevenshr/MGD-SAM2) |
 | 2023     | arXiv    | SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes | Yiran Song, Qianyu Zhou, Xuequan Lu, Zhiwen Shao, Lizhuang Ma                                                                     | [Paper](https://arxiv.org/abs/2401.17803)/[Code](https://github.com/zongzi13545329/SimAda) |
 
