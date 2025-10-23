@@ -1,6 +1,8 @@
 # Awesome Dichotomous Image Segmentation 
 🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
 
+If you want to try these models on ComfyUI, you can find a ComfyUI-compatible workflow at **[ComfyUI-RemoveBackground_SET](https://github.com/set-soft/ComfyUI-RemoveBackground_SET)**. This was done by [Salvador E. Tropea](https://github.com/set-soft) and includes most of the non-prompt models—many thanks to him! ❤️
+
 ```
 ❗2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
 2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
