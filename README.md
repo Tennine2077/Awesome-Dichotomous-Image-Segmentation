@@ -4,7 +4,8 @@
 If you want to try these models on ComfyUI, you can find a ComfyUI-compatible workflow at **[ComfyUI-RemoveBackground_SET](https://github.com/set-soft/ComfyUI-RemoveBackground_SET)**. This was done by [Salvador E. Tropea](https://github.com/set-soft) and includes most of the non-prompt models—many thanks to him! ❤️
 
 ```
-❗2025/10/24 Add a Promptable paper on ArXiv 'M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation'
+❗2025/11/19 Add a Non-Promptable paper on ArXiv 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
+2025/10/24 Add a Promptable paper on ArXiv 'M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation'
 2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
 2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
 2025/07/15 Add a Non-Promptable paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
@@ -39,6 +40,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------- |
 | 2025     | arXiv    | Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
 | 2025     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation                                      | Maxwell Meyer, Jack Spruyt        | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN)       |
+| 2025     | arXiv    | S3OD: Towards Generalizable Salient Object Detection with Synthetic Data                                      | Orest Kupyn, Hirokatsu Kataoka, Christian Rupprecht        | [Paper](https://arxiv.org/abs/2510.21605)/Code       |
 ### 2025
 | **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
 | -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
