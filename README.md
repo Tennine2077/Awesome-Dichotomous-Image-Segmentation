@@ -12,7 +12,7 @@ If you want to try these models on ComfyUI, you can find a ComfyUI-compatible wo
 2025/05/25 Add a Promptable paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
 2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
 2025/03/24 Change a paper from ArXiv to ICME 'DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation'.
-2025/03/15 Add a paper on ArXiv 'Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior'.
+2025/03/15 Add a paper on ArXiv 'High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy'.
 2025/03/10 Add a paper on PR 'S2DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation'.
 2025/02/20 Add a paper on ESWA 'An Edge-Guided SAM for effective complex object segmentation'.
 2025/01/17 Add a paper on ArXiv 'BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation'.
@@ -38,7 +38,7 @@ An example instance of an image, its ground truth, and the segmentation for this
 
 | **Year** | **Pub.** | **Title**                                                                                                    | **Author**                        | **Links**                                                                               |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------- |
-| 2025     | arXiv    | Patch-Depth Fusion: Dichotomous Image Segmentation via Fine-Grained Patch Strategy and Depth Integrity-Prior | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
+| 2025     | arXiv    | High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
 | 2025     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation                                      | Maxwell Meyer, Jack Spruyt        | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN)       |
 | 2025     | arXiv    | S3OD: Towards Generalizable Salient Object Detection with Synthetic Data                                      | Orest Kupyn, Hirokatsu Kataoka, Christian Rupprecht        | [Paper](https://arxiv.org/abs/2510.21605)/[Code](https://s3odproject.github.io/)       |
 ### 2025
