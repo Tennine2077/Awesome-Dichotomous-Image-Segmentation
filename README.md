@@ -4,7 +4,8 @@
 If you want to try these models on ComfyUI, you can find a ComfyUI-compatible workflow at **[ComfyUI-RemoveBackground_SET](https://github.com/set-soft/ComfyUI-RemoveBackground_SET)**. This was done by [Salvador E. Tropea](https://github.com/set-soft) and includes most of the non-prompt models—many thanks to him! ❤️
 
 ```
-❗2025/11/19 Add a Non-Promptable paper on ArXiv 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
+❗2026/03/05 Change a paper from ArXiv to CVPR2026 'High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy'
+2025/11/19 Add a Non-Promptable paper on ArXiv 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
 2025/10/24 Add a Promptable paper on ArXiv 'M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation'
 2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
 2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
@@ -38,9 +39,13 @@ An example instance of an image, its ground truth, and the segmentation for this
 
 | **Year** | **Pub.** | **Title**                                                                                                    | **Author**                        | **Links**                                                                               |
 | -------- | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------- |
-| 2025     | arXiv    | High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
 | 2025     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation                                      | Maxwell Meyer, Jack Spruyt        | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN)       |
 | 2025     | arXiv    | S3OD: Towards Generalizable Salient Object Detection with Synthetic Data                                      | Orest Kupyn, Hirokatsu Kataoka, Christian Rupprecht        | [Paper](https://arxiv.org/abs/2510.21605)/[Code](https://s3odproject.github.io/)       |
+
+### 2026
+| **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
+| -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2026     | CVPR    | High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
 ### 2025
 | **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
 | -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
