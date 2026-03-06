@@ -6,6 +6,7 @@ If you want to try these models on ComfyUI, you can find a ComfyUI-compatible wo
 ```
 ❗2026/03/05 Change a paper from ArXiv to CVPR2026 'High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy'
 2026/03/05 Change a paper from ArXiv to ICLR 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
+2026/02/26 Add a Promptable paper on Sensors 'PMG-SAM:Boosting Auto-Segmentation of SAM with Pre-Mask Guidance'
 2025/11/19 Add a Non-Promptable paper on ArXiv 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
 2025/10/24 Add a Promptable paper on ArXiv 'M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation'
 2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
@@ -83,6 +84,11 @@ An example instance of an image, its ground truth, and the segmentation for this
 | 2025     | arXiv    | SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks | Xinyu Xiong, Zihuang Wu, Lei Zhang, Lei Lu, Ming Li, Guanbin Li                               | [Paper](https://arxiv.org/abs/2508.03566)/[Code](https://github.com/WZH0120/SAM2-UNeXT) |
 | 2025     | arXiv    | MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation | Haoran Shen, Peixian Zhuang, Jiahao Kou, Yuxin Zeng, Haoying Xu, Jiangyun Li                               | [Paper](https://arxiv.org/abs/2503.23786)/[Code](https://github.com/sevenshr/MGD-SAM2) |
 | 2023     | arXiv    | SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes | Yiran Song, Qianyu Zhou, Xuequan Lu, Zhiwen Shao, Lizhuang Ma                                                                     | [Paper](https://arxiv.org/abs/2401.17803)/[Code](https://github.com/zongzi13545329/SimAda) |
+
+### 2026
+| **Year** | **Pub.** | **Title**                                                                                        | **Author**                                                                                                                        | **Links**                                                                                                               |
+| -------- | -------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| 2026     | Sensors     | PMG-SAM:Boosting Auto-Segmentation of SAM with Pre-Mask Guidance            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | [Paper](https://www.mdpi.com/1424-8220/26/2/365)/Code                                                                                                                                             |
 
 ### 2025
 | **Year** | **Pub.** | **Title**                                                                                        | **Author**                                                                                                                        | **Links**                                                                                                               |
