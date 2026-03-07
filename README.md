@@ -1,114 +1,243 @@
-# Awesome Dichotomous Image Segmentation 
-🔥 A curated list of awesome resources for dichotomous image segmentation (DIS).
+<div align="center">
 
-If you want to try these models on ComfyUI, you can find a ComfyUI-compatible workflow at **[ComfyUI-RemoveBackground_SET](https://github.com/set-soft/ComfyUI-RemoveBackground_SET)**. This was done by [Salvador E. Tropea](https://github.com/set-soft) and includes most of the non-prompt models—many thanks to him! ❤️
+# 🎯 Awesome Dichotomous Image Segmentation
 
-```
-❗2026/03/05 Change a paper from ArXiv to CVPR2026 'High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy'
-2026/03/05 Change a paper from ArXiv to ICLR 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
-2026/02/26 Add a Promptable paper on Sensors 'PMG-SAM:Boosting Auto-Segmentation of SAM with Pre-Mask Guidance'
-2025/11/19 Add a Non-Promptable paper on ArXiv 'S3OD: Towards Generalizable Salient Object Detection with Synthetic Data'
-2025/10/24 Add a Promptable paper on ArXiv 'M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation'
-2025/09/15 Add a Promptable paper on ArXiv 'SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks'
-2025/08/05 Add a Promptable paper on ICCV 'LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation'
-2025/07/15 Add a Non-Promptable paper on PR 'DC-Net: Divide-and-conquer for salient object detection'
-2025/05/25 Add a Promptable paper on ArXiv'MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation'
-2025/04/19 Change a paper from ArXiv to ICLR 'Order-aware Interactive Segmentation'
-2025/03/24 Change a paper from ArXiv to ICME 'DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation'.
-2025/03/15 Add a paper on ArXiv 'High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy'.
-2025/03/10 Add a paper on PR 'S2DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation'.
-2025/02/20 Add a paper on ESWA 'An Edge-Guided SAM for effective complex object segmentation'.
-2025/01/17 Add a paper on ArXiv 'BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation'.
-2024/12/15 Paper 'Diffusion Models Trained with Large Data Are Transferable Visual Models' change to 'What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?'.
-2024/11/16 Add a paper 'High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity'.
-2024/10/12 Add a paper on NerIPS 'MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation'.
-2024/09/11 Add a paper on CVIU 'Dual cross-enhancement network for highly accurate dichotomous image segmentation'.
-2024/08/27 Created the list.
-```
-#### If you like our project, please give us a star ⭐ on GitHub for latest update.
+**🔥 A curated list of awesome resources for dichotomous image segmentation (DIS)**
 
-Highly Accurate Dichotomous Image Segmentation presents a new task called Dichotomous Image Segmentation (DIS), which aims to segment highly accurate objects from natural images.
+[![GitHub Stars](https://img.shields.io/github/stars/Tennine2077/Awesome-Dichotomous-Image-Segmentation?style=social)](https://github.com/Tennine2077/Awesome-Dichotomous-Image-Segmentation)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-An example instance of an image, its ground truth, and the segmentation for this task are shown in the figure below.
+**[🇨🇳 中文版](README_CN.md)** | **English**
 
-![image](imgs/compare3.png)
+</div>
 
-## Content:
-- [Non-Promptable](#Non-Promptable)
-- [Promptable](#Promptable)
-## Non-Promptable
+---
+
+## 📢 Latest Updates
+
+| Date | News |
+|------|------|
+| 🔥 2026/03/05 | CVPR2026: **PDFNet** - High-Precision DIS via Depth Integrity-Prior |
+| 🔥 2026/03/05 | ICLR: **S3OD** - Generalizable SOD with Synthetic Data |
+| 🔥 2026/02/26 | Sensors: **PMG-SAM** - Boosting SAM with Pre-Mask Guidance |
+| 🔥 2025/11/19 | arXiv: **S3OD** - Towards Generalizable Salient Object Detection |
+| 🔥 2025/10/24 | arXiv: **M2N2V2** - Multi-Modal Unsupervised Interactive Segmentation |
+
+<details>
+<summary>📜 View More Updates</summary>
+
+| Date | News |
+|------|------|
+| 🔥 2025/09/15 | arXiv: **SAM2-UNeXT** - Adapting Foundation Models to Downstream Segmentation |
+| 🔥 2025/08/05 | ICCV: **LawDIS** - Language-Window-based Controllable DIS |
+| 🔥 2025/07/15 | PR: **DC-Net** - Divide-and-conquer for salient object detection |
+| 🔥 2025/05/25 | arXiv: **MGD-SAM2** - Multi-view Guided Detail-enhanced SAM 2 |
+| 🔥 2025/04/19 | ICLR: **OrderIS** - Order-aware Interactive Segmentation |
+| 🔥 2025/03/24 | ICME: **DIS-SAM** - Promoting SAM towards Highly Accurate DIS |
+| 🔥 2025/03/15 | arXiv: High-Precision DIS via Depth Integrity-Prior |
+| 🔥 2025/03/10 | PR: **S2DiNet** - Lightweight and Fast High-Resolution DIS |
+| 🔥 2025/02/20 | ESWA: **EG-SAM** - Edge-Guided SAM for Complex Object Segmentation |
+| 🔥 2025/01/17 | arXiv: **BEN** - Confidence-Guided Matting for DIS |
+| 🔥 2024/12/15 | Diffusion Models paper updated |
+| 🔥 2024/11/16 | arXiv: High-Precision DIS via Probing Diffusion Capacity |
+| 🔥 2024/10/12 | NeurIPS: **MaskFactory** - Synthetic Data Generation For DIS |
+| 🔥 2024/09/11 | CVIU: **DCENet** - Dual cross-enhancement network |
+| 🔥 2024/08/27 | 🎉 Created the list |
+
+</details>
+
+---
+
+## 🛠️ ComfyUI Integration
+
+Want to try these models in ComfyUI? Check out **[ComfyUI-RemoveBackground_SET](https://github.com/set-soft/ComfyUI-RemoveBackground_SET)** by [Salvador E. Tropea](https://github.com/set-soft)! 
+
+Big thanks to him for making this possible! ❤️
+
+---
+
+## 🎨 What is DIS?
+
+**Dichotomous Image Segmentation (DIS)** aims to segment objects from natural images with **high precision**. Unlike traditional segmentation, DIS focuses on extracting fine-grained details and accurate boundaries.
+
+<p align="center">
+  <img src="imgs/model_comparison.png" alt="DIS Model Comparison" width="80%">
+</p>
+
+---
+
+## 📚 Table of Contents
+
+- [🤖 Non-Promptable Methods](#-non-promptable-methods)
+  - [Preprint](#preprint)
+  - [2026](#2026)
+  - [2025](#2025-1)
+  - [2024](#2024-1)
+  - [2023](#2023-1)
+  - [2022](#2022)
+- [🚀 Promptable Methods](#-promptable-methods)
+  - [Preprint](#preprint-1)
+  - [2026](#2026-1)
+  - [2025](#2025-2)
+  - [2024](#2024-2)
+  - [2023](#2023-2)
+
+---
+
+## 🤖 Non-Promptable Methods
+
 ### Preprint
 
-| **Year** | **Pub.** | **Title**                                                                                                    | **Author**                        | **Links**                                                                               |
-| -------- | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | --------------------------------------------------------------------------------------- |
-| 2025     | arXiv    | BEN: Using Confidence-Guided Matting for Dichotomous Image Segmentation                                      | Maxwell Meyer, Jack Spruyt        | [Paper](https://arxiv.org/abs/2501.06230)/[Code](https://github.com/PramaLLC/BEN)       |
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2025 | arXiv | **BEN** | Using Confidence-Guided Matting for DIS | Maxwell Meyer, Jack Spruyt | [Paper](https://arxiv.org/abs/2501.06230) / [Code](https://github.com/PramaLLC/BEN) [![Stars](https://img.shields.io/github/stars/PramaLLC/BEN?style=social)](https://github.com/PramaLLC/BEN) |
+| | | | *Leverages confidence-guided matting techniques to improve segmentation quality in ambiguous boundary regions.* | | |
 
 ### 2026
-| **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
-| -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2026     | CVPR    | High-Precision Dichotomous Image Segmentation via Depth Integrity-Prior and Fine-Grained Patch Strategy | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100)/[Code](https://github.com/Tennine2077/PDFNet) |
-| 2026     | ICLR    | S3OD: Towards Generalizable Salient Object Detection with Synthetic Data                                      | Orest Kupyn, Hirokatsu Kataoka, Christian Rupprecht        | [Paper](https://arxiv.org/abs/2510.21605)/[Code](https://s3odproject.github.io/)       |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2026 | CVPR | **PDFNet** | High-Precision DIS via Depth Integrity-Prior and Fine-Grained Patch Strategy | Xianjie Liu, Keren Fu, Qijun Zhao | [Paper](https://arxiv.org/abs/2503.06100) / [Code](https://github.com/Tennine2077/PDFNet) [![Stars](https://img.shields.io/github/stars/Tennine2077/PDFNet?style=social)](https://github.com/Tennine2077/PDFNet) |
+| | | | *Introduces depth integrity prior and fine-grained patch strategy to achieve high-precision segmentation for complex objects.* | | |
+| 2026 | ICLR | **S3OD** | Towards Generalizable Salient Object Detection with Synthetic Data | Orest Kupyn, Hirokatsu Kataoka, Christian Rupprecht | [Paper](https://arxiv.org/abs/2510.21605) / [Project](https://s3odproject.github.io/) |
+| | | | *Addresses the generalization problem in salient object detection by leveraging high-quality synthetic training data.* | | |
 
 ### 2025
-| **Year** | **Pub.** | **Title**                                                                            | **Author**                                                                                             | **Links**                                                                                                                                                                                        |
-| -------- | -------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 2025     | ICLR     | High-Precision Dichotomous Image Segmentation via Probing Diffusion Capacity         | Qian Yu, Peng-Tao Jiang, Hao Zhang, Jinwei Chen, Bo Li, Lihe Zhang, Huchuan Lu                         | [Paper](https://arxiv.org/abs/2410.10105)/[Code](https://github.com/qianyu-dlut/DiffDIS)                                                                                                         |
-| 2025     | ICLR     | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks?   | Guangkai Xu, Yongtao Ge, Mingyu Liu, Chengxiang Fan, Kangyang Xie, Zhiyue Zhao, Hao Chen, Chunhua Shen | [Paper](https://arxiv.org/abs/2403.06090)/[Code](https://github.com/aim-uofa/GenPercept)                                                                                                         |
-| 2025     | PR       | S2DiNet: Towards lightweight and fast high-resolution dichotomous image segmentation | Shuhan Chen, Haonan Tang, Yuan Huang, Lifeng Zhang,, Xuelong Hu                                        | [Paper](https://www.sciencedirect.com/science/article/pii/S0031320325001669)/[Code](https://github.com/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation) |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2025 | ICLR | **DiffDIS** | High-Precision DIS via Probing Diffusion Capacity | Qian Yu, Peng-Tao Jiang, Hao Zhang, et al. | [Paper](https://arxiv.org/abs/2410.10105) / [Code](https://github.com/qianyu-dlut/DiffDIS) [![Stars](https://img.shields.io/github/stars/qianyu-dlut/DiffDIS?style=social)](https://github.com/qianyu-dlut/DiffDIS) |
+| | | | *Explores the inherent capacity of pre-trained diffusion models for high-precision dichotomous image segmentation.* | | |
+| 2025 | ICLR | **GenPercept** | What Matters When Repurposing Diffusion Models for General Dense Perception Tasks? | Guangkai Xu, Yongtao Ge, Mingyu Liu, et al. | [Paper](https://arxiv.org/abs/2403.06090) / [Code](https://github.com/aim-uofa/GenPercept) [![Stars](https://img.shields.io/github/stars/aim-uofa/GenPercept?style=social)](https://github.com/aim-uofa/GenPercept) |
+| | | | *Systematically investigates key factors when adapting diffusion models for dense prediction tasks including DIS.* | | |
+| 2025 | PR | **S2DiNet** | Towards Lightweight and Fast High-Resolution DIS | Shuhan Chen, Haonan Tang, Yuan Huang, et al. | [Paper](https://www.sciencedirect.com/science/article/pii/S0031320325001669) / [Code](https://github.com/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation) [![Stars](https://img.shields.io/github/stars/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation?style=social)](https://github.com/m0ho/S2DiNet-Towards-Lightweight-and-Fast-High-Resolution-Dichotomous-Image-Segmentation) |
+| | | | *Proposes a lightweight and efficient network architecture for high-resolution DIS with fast inference speed.* | | |
+
 ### 2024
-| **Year** | **Pub.** | **Title**                                                                                      | **Author**                                                                                 | **Links**                                                                                                                                                                                            |
-| -------- | -------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024     | NeurIPS  | MaskFactory: Towards High-quality Synthetic Data Generation For Dichotomous Image Segmentation | Haotian Qian, Yinda Chen, Shengtao Lou, Fahad Khan, Xiaogang Jin, Deng-Ping Fan            | [Paper](https://openreview.net/pdf?id=iM5i289eqt)/[Code](https://github.com/ydchen0806/MaskFactory)                                                                                                  |
-| 2024     | CVPR     | Multi-view Aggregation Network for Dichotomous Image Segmentation                              | Qian Yu, Xiaoqi Zhao, Youwei Pang, Lihe Zhang, Huchuan Lu                                  | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Multi-view_Aggregation_Network_for_Dichotomous_Image_Segmentation_CVPR_2024_paper.html)/[Code](https://github.com/qianyu-dlut/MVANet) |
-| 2024     | CAAI AIR | Bilateral Reference for High-Resolution Dichotomous Image Segmentation                         | Peng Zheng, Dehong Gao, Deng-Ping Fan, Li Liu, Jorma Laaksonen, Wanli Ouyang, Nicu Sebe    | [Paper](https://arxiv.org/abs/2401.03407)/[Code](https://github.com/ZhengPeng7/BiRefNet)                                                                                                             |
-| 2024     | TNNLS    | High-Precision Dichotomous Image Segmentation With Frequency and Scale Awareness               | Qiuping Jiang, Jinguang Cheng, Zongwei Wu, Runmin Cong, Radu Timofte                       | [Paper](https://ieeexplore.ieee.org/abstract/document/10638122/authors#authors)/[Code](https://github.com/chasecjg/FSANet)                                                                           |
-| 2024     | CVIU     | Dual cross-enhancement network for highly accurate dichotomous image segmentation              | Hongbo Bi, Yuyu Tong, Pan Zhang, Jiayuan Zhang, Cong Zhang                                 | [Paper](https://www.sciencedirect.com/science/article/pii/S1077314224002030)/[Code](https://github.com/tongyuyu/DCENet)                                                                              |
-| 2024     | TVC      | Boundary-aware dichotomous image segmentation                                                  | Tang, Haonan and Chen, Shuhan and Liu, Yang and Wang, Shiyu and Chen, Zeyu and Hu, Xuelong | [Paper](https://link.springer.com/article/10.1007/s00371-024-03295-5)\|[Code](https://github.com/m0ho/Boundary-Aware-Dichotomous-Image-Segmentation)                                                 |
-| 2024     | PR       | DC-Net: Divide-and-conquer for salient object detection                                        | Jiayi Zhu, Xuebin Qin and Abdulmotaleb Elsaddik                                            | [Paper](https://www.sciencedirect.com/science/article/pii/S003132032400654X)\|[Code](https://github.com/PiggyJerry/DC-Net)                                                                           |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2024 | NeurIPS | **MaskFactory** | Towards High-quality Synthetic Data Generation For DIS | Haotian Qian, Yinda Chen, Shengtao Lou, et al. | [Paper](https://openreview.net/pdf?id=iM5i289eqt) / [Code](https://github.com/ydchen0806/MaskFactory) [![Stars](https://img.shields.io/github/stars/ydchen0806/MaskFactory?style=social)](https://github.com/ydchen0806/MaskFactory) |
+| | | | *Generates high-quality synthetic training data for DIS by combining image compositing and mask refinement techniques.* | | |
+| 2024 | CVPR | **MVANet** | Multi-view Aggregation Network for DIS | Qian Yu, Xiaoqi Zhao, Youwei Pang, et al. | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_Multi-view_Aggregation_Network_for_Dichotomous_Image_Segmentation_CVPR_2024_paper.html) / [Code](https://github.com/qianyu-dlut/MVANet) [![Stars](https://img.shields.io/github/stars/qianyu-dlut/MVANet?style=social)](https://github.com/qianyu-dlut/MVANet) |
+| | | | *Proposes multi-view aggregation strategy to capture both global context and local details for accurate segmentation.* | | |
+| 2024 | CAAI AIR | **BiRefNet** | Bilateral Reference for High-Resolution DIS | Peng Zheng, Dehong Gao, Deng-Ping Fan, et al. | [Paper](https://arxiv.org/abs/2401.03407) / [Code](https://github.com/ZhengPeng7/BiRefNet) [![Stars](https://img.shields.io/github/stars/ZhengPeng7/BiRefNet?style=social)](https://github.com/ZhengPeng7/BiRefNet) |
+| | | | *Introduces bilateral reference mechanism to handle high-resolution images efficiently while preserving fine details.* | | |
+| 2024 | TNNLS | **FSANet** | High-Precision DIS With Frequency and Scale Awareness | Qiuping Jiang, Jinguang Cheng, Zongwei Wu, et al. | [Paper](https://ieeexplore.ieee.org/abstract/document/10638122) / [Code](https://github.com/chasecjg/FSANet) [![Stars](https://img.shields.io/github/stars/chasecjg/FSANet?style=social)](https://github.com/chasecjg/FSANet) |
+| | | | *Incorporates frequency domain analysis and multi-scale features to achieve high-precision boundary segmentation.* | | |
+| 2024 | CVIU | **DCENet** | Dual Cross-enhancement Network for Highly Accurate DIS | Hongbo Bi, Yuyu Tong, Pan Zhang, et al. | [Paper](https://www.sciencedirect.com/science/article/pii/S1077314224002030) / [Code](https://github.com/tongyuyu/DCENet) [![Stars](https://img.shields.io/github/stars/tongyuyu/DCENet?style=social)](https://github.com/tongyuyu/DCENet) |
+| | | | *Designs dual cross-enhancement modules to mutually reinforce feature representations for accurate segmentation.* | | |
+| 2024 | TVC | **BA-DIS** | Boundary-aware Dichotomous Image Segmentation | Haonan Tang, Shuhan Chen, Yang Liu, et al. | [Paper](https://link.springer.com/article/10.1007/s00371-024-03295-5) / [Code](https://github.com/m0ho/Boundary-Aware-Dichotomous-Image-Segmentation) [![Stars](https://img.shields.io/github/stars/m0ho/Boundary-Aware-Dichotomous-Image-Segmentation?style=social)](https://github.com/m0ho/Boundary-Aware-Dichotomous-Image-Segmentation) |
+| | | | *Focuses on boundary-aware learning to improve edge accuracy in dichotomous image segmentation.* | | |
+| 2024 | PR | **DC-Net** | Divide-and-conquer for Salient Object Detection | Jiayi Zhu, Xuebin Qin, Abdulmotaleb Elsaddik | [Paper](https://www.sciencedirect.com/science/article/pii/S003132032400654X) / [Code](https://github.com/PiggyJerry/DC-Net) [![Stars](https://img.shields.io/github/stars/PiggyJerry/DC-Net?style=social)](https://github.com/PiggyJerry/DC-Net) |
+| | | | *Adopts divide-and-conquer strategy to handle objects at different scales for robust salient object detection.* | | |
+
 ### 2023
-| **Year** | **Pub.** | **Title**                                                                                               | **Author**                                                           | **Links**                                                                                        |
-| -------- | -------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| 2023     | ACM MM   | Unite-Divide-Unite: Joint Boosting Trunk and Structure for High-accuracy Dichotomous Image Segmentation | Jialun Pei, Zhangjun Zhou, Yueming Jin, He Tang, and Pheng-Ann Heng  | [Paper](https://arxiv.org/abs/2307.14052)\|[Code](https://github.com/PJLallen/UDUN)              |
-| 2023     | IJCAI    | Dichotomous Image Segmentation with Frequency Priors                                                    | Yan Zhou, Bo Dong, Yuanfeng Wu, Wentao Zhu, Geng Chen, Yanning Zhang | [Paper](https://www.ijcai.org/proceedings/2023/202)\|[Code](https://github.com/dongbo811/FP-DIS) |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2023 | ACM MM | **UDUN** | Unite-Divide-Unite: Joint Boosting Trunk and Structure for High-accuracy DIS | Jialun Pei, Zhangjun Zhou, Yueming Jin, et al. | [Paper](https://arxiv.org/abs/2307.14052) / [Code](https://github.com/PJLallen/UDUN) [![Stars](https://img.shields.io/github/stars/PJLallen/UDUN?style=social)](https://github.com/PJLallen/UDUN) |
+| | | | *Proposes unite-divide-unite paradigm to jointly optimize trunk features and structural details for high accuracy.* | | |
+| 2023 | IJCAI | **FP-DIS** | Dichotomous Image Segmentation with Frequency Priors | Yan Zhou, Bo Dong, Yuanfeng Wu, et al. | [Paper](https://www.ijcai.org/proceedings/2023/202) / [Code](https://github.com/dongbo811/FP-DIS) [![Stars](https://img.shields.io/github/stars/dongbo811/FP-DIS?style=social)](https://github.com/dongbo811/FP-DIS) |
+| | | | *Leverages frequency domain priors to enhance boundary perception and segmentation accuracy.* | | |
+
 ### 2022
 
-| **Year** | **Pub.** | **Title**                                      | **Author**                                                               | **Links**                                                                          |
-| -------- | -------- | ---------------------------------------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| 2022     | ECCV     | Highly Accurate Dichotomous Image Segmentation | Xuebin Qin, Hang Dai, Xiaobin Hu, Deng-Ping Fan, Ling Shao, Luc Van Gool | [Paper](https://arxiv.org/abs/2203.03041)/[Code](https://github.com/xuebinqin/DIS) |
-## Promptable
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2022 | ECCV | **IS-Net** | Highly Accurate Dichotomous Image Segmentation | Xuebin Qin, Hang Dai, Xiaobin Hu, et al. | [Paper](https://arxiv.org/abs/2203.03041) / [Code](https://github.com/xuebinqin/DIS) [![Stars](https://img.shields.io/github/stars/xuebinqin/DIS?style=social)](https://github.com/xuebinqin/DIS) |
+| | | | *🌱 The pioneering work that defines the DIS task and proposes a baseline with a large-scale dataset.* | | |
+
+---
+
+## 🚀 Promptable Methods
+
+> 🤖 Methods based on SAM or other foundation models with interactive prompts
+
 ### Preprint
 
-| **Year** | **Pub.** | **Title**                                                                                       | **Author**                                                                                                                        | **Links**                                                                                  |
-| -------- | -------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| 2025     | arXiv    | M2N2V2: Multi-Modal Unsupervised and Training-free Interactive Segmentation | Markus Karmann, Peng-Tao Jiang, Bo Li, Onay Urfalioglu                               | [Paper](https://arxiv.org/abs/2503.16254)/Code |
-| 2025     | arXiv    | SAM2-UNeXT: An Improved High-Resolution Baseline for Adapting Foundation Models to Downstream Segmentation Tasks | Xinyu Xiong, Zihuang Wu, Lei Zhang, Lei Lu, Ming Li, Guanbin Li                               | [Paper](https://arxiv.org/abs/2508.03566)/[Code](https://github.com/WZH0120/SAM2-UNeXT) |
-| 2025     | arXiv    | MGD-SAM2: Multi-view Guided Detail-enhanced Segment Anything Model 2 for High-Resolution Class-agnostic Segmentation | Haoran Shen, Peixian Zhuang, Jiahao Kou, Yuxin Zeng, Haoying Xu, Jiangyun Li                               | [Paper](https://arxiv.org/abs/2503.23786)/[Code](https://github.com/sevenshr/MGD-SAM2) |
-| 2023     | arXiv    | SU-SAM: A Simple Unified Framework for Adapting Segment Anything Model in Underperformed Scenes | Yiran Song, Qianyu Zhou, Xuequan Lu, Zhiwen Shao, Lizhuang Ma                                                                     | [Paper](https://arxiv.org/abs/2401.17803)/[Code](https://github.com/zongzi13545329/SimAda) |
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2025 | arXiv | **M2N2V2** | Multi-Modal Unsupervised and Training-free Interactive Segmentation | Markus Karmann, Peng-Tao Jiang, Bo Li, et al. | [Paper](https://arxiv.org/abs/2503.16254) |
+| | | | *Proposes a training-free approach for interactive segmentation using multi-modal information without additional training.* | | |
+| 2025 | arXiv | **SAM2-UNeXT** | An Improved High-Resolution Baseline for Adapting Foundation Models | Xinyu Xiong, Zihuang Wu, Lei Zhang, et al. | [Paper](https://arxiv.org/abs/2508.03566) / [Code](https://github.com/WZH0120/SAM2-UNeXT) [![Stars](https://img.shields.io/github/stars/WZH0120/SAM2-UNeXT?style=social)](https://github.com/WZH0120/SAM2-UNeXT) |
+| | | | *Develops an improved high-resolution baseline for adapting SAM2 to downstream segmentation tasks.* | | |
+| 2025 | arXiv | **MGD-SAM2** | Multi-view Guided Detail-enhanced SAM 2 for High-Resolution Segmentation | Haoran Shen, Peixian Zhuang, Jiahao Kou, et al. | [Paper](https://arxiv.org/abs/2503.23786) / [Code](https://github.com/sevenshr/MGD-SAM2) [![Stars](https://img.shields.io/github/stars/sevenshr/MGD-SAM2?style=social)](https://github.com/sevenshr/MGD-SAM2) |
+| | | | *Enhances SAM2 with multi-view guidance and detail enhancement for high-resolution class-agnostic segmentation.* | | |
+| 2023 | arXiv | **SU-SAM** | A Simple Unified Framework for Adapting SAM in Underperformed Scenes | Yiran Song, Qianyu Zhou, Xuequan Lu, et al. | [Paper](https://arxiv.org/abs/2401.17803) / [Code](https://github.com/zongzi13545329/SimAda) [![Stars](https://img.shields.io/github/stars/zongzi13545329/SimAda?style=social)](https://github.com/zongzi13545329/SimAda) |
+| | | | *Proposes a simple unified framework to adapt SAM for challenging scenes where the original model underperforms.* | | |
 
 ### 2026
-| **Year** | **Pub.** | **Title**                                                                                        | **Author**                                                                                                                        | **Links**                                                                                                               |
-| -------- | -------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2026     | Sensors     | PMG-SAM:Boosting Auto-Segmentation of SAM with Pre-Mask Guidance            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | [Paper](https://www.mdpi.com/1424-8220/26/2/365)/Code                                                                                                                                             |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2026 | Sensors | **PMG-SAM** | Boosting Auto-Segmentation of SAM with Pre-Mask Guidance | Xinyu Yan, Meijun Sun, Ge-Peng Ji, et al. | [Paper](https://www.mdpi.com/1424-8220/26/2/365) |
+| | | | *Introduces pre-mask guidance mechanism to boost SAM's auto-segmentation capability for better initial predictions.* | | |
 
 ### 2025
-| **Year** | **Pub.** | **Title**                                                                                        | **Author**                                                                                                                        | **Links**                                                                                                               |
-| -------- | -------- | ------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| 2025     | ICCV     | LawDIS: Language-Window-based Controllable Dichotomous Image Segmentation            | Xinyu Yan, Meijun Sun, Ge-Peng Ji, Fahad Shahbaz Khan, Salman Khan, Deng-Ping Fan                      | [Paper](https://arxiv.org/abs/2508.01152)/[Code](https://github.com/XinyuYanTJU/LawDIS)                                                                                                                                              |
-| 2025     | ICLR     | Order-aware Interactive Segmentation                                                             | Bin Wang, Anwesa Choudhuri, Meng Zheng, Zhongpai Gao, Benjamin Planche, Andong Deng, Qin Liu, Terrence Chen, Ulas Bagci, Ziyan Wu | [Paper](https://arxiv.org/abs/2410.12214)/Code                                                                          |
-| 2025     | ICME     | DIS-SAM: Promoting Segment Anything Model towards Highly Accurate Dichotomous Image Segmentation | Xianjie Liu, Keren Fu, Yao Jiang, Qijun Zhao                                                                                      | [Paper](https://arxiv.org/abs/2401.00248)/[Code](https://github.com/Tennine2077/DIS-SAM)                                |
-| 2025     | ESWA     | An Edge-Guided SAM for effective complex object segmentation                                     | Longyi Chen , Xiandong Wang, Fengqin Yao, Mingchen Song, Jiaheng Zhang, Shengke Wang                                              | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417425001824)/[Code](https://github.com/code-797/EG-SAM) |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2025 | ICCV | **LawDIS** | Language-Window-based Controllable DIS | Xinyu Yan, Meijun Sun, Ge-Peng Ji, et al. | [Paper](https://arxiv.org/abs/2508.01152) / [Code](https://github.com/XinyuYanTJU/LawDIS) [![Stars](https://img.shields.io/github/stars/XinyuYanTJU/LawDIS?style=social)](https://github.com/XinyuYanTJU/LawDIS) |
+| | | | *Enables controllable DIS through language and window-based interaction for flexible user control.* | | |
+| 2025 | ICLR | **OrderIS** | Order-aware Interactive Segmentation | Bin Wang, Anwesa Choudhuri, Meng Zheng, et al. | [Paper](https://arxiv.org/abs/2410.12214) |
+| | | | *Incorporates order-aware learning into interactive segmentation to model the sequential nature of user interactions.* | | |
+| 2025 | ICME | **DIS-SAM** | Promoting SAM towards Highly Accurate DIS | Xianjie Liu, Keren Fu, Yao Jiang, et al. | [Paper](https://arxiv.org/abs/2401.00248) / [Code](https://github.com/Tennine2077/DIS-SAM) [![Stars](https://img.shields.io/github/stars/Tennine2077/DIS-SAM?style=social)](https://github.com/Tennine2077/DIS-SAM) |
+| | | | *Adapts SAM specifically for high-precision DIS with enhanced boundary awareness and detail preservation.* | | |
+| 2025 | ESWA | **EG-SAM** | An Edge-Guided SAM for Effective Complex Object Segmentation | Longyi Chen, Xiandong Wang, Fengqin Yao, et al. | [Paper](https://www.sciencedirect.com/science/article/pii/S0957417425001824) / [Code](https://github.com/code-797/EG-SAM) [![Stars](https://img.shields.io/github/stars/code-797/EG-SAM?style=social)](https://github.com/code-797/EG-SAM) |
+| | | | *Integrates edge guidance into SAM for more effective segmentation of complex objects with intricate boundaries.* | | |
+
 ### 2024
-| **Year** | **Pub.** | **Title**                                                                                   | **Author**                                                                                   | **Links**                                                                                                                                                                                                                                                                                                            |
-| -------- | -------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2024     | ACM MM   | Segment Anything with Precise Interaction                                                   | Mengzhen Liu, Mengyu Wang, Henghui Ding, Yilong Xu, Yao Zhao, Yunchao Wei                    | [Paper](https://openreview.net/pdf?id=lD9A7SS4BP)/Code                                                                                                                                                                                                                                                               |
-| 2024     | CVPR     | Rethinking Interactive Image Segmentation with Low Latency High Quality and Diverse Prompts | Qin Liu, Jaemin Cho, Mohit Bansal, Marc Niethammer                                           | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Rethinking_Interactive_Image_Segmentation_with_Low_Latency_High_Quality_and_CVPR_2024_paper.html)/[Code](https://github.com/uncbiag/SegNext)                                                                                                         |
-| 2024     | ECCV     | CAT-SAM: Conditional Tuning for Few-Shot Adaptation of Segment Anything Model               | Aoran Xiao, Weihao Xuan, Heli Qi, Yun Xing, Ruijie Ren, Xiaoqin Zhang, Ling Shao, Shijian Lu | [Paper](https://arxiv.org/abs/2402.03631)/[Code](https://github.com/weihao1115/cat-sam)                                                                                                                                                                                                                              |
-| 2024     | ICCV     | BA-SAM: Scalable Bias-Mode Attention Mask for Segment Anything Model                        | Yiran Song, Qianyu Zhou, Xiangtai Li, Deng-Ping Fan, Xuequan Lu, Lizhuang Ma                 | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Song_BA-SAM_Scalable_Bias-Mode_Attention_Mask_for_Segment_Anything_Model_CVPR_2024_paper.html)/[Code](https://openaccess.thecvf.com/content/CVPR2024/html/Song_BA-SAM_Scalable_Bias-Mode_Attention_Mask_for_Segment_Anything_Model_CVPR_2024_paper.html) |
-| 2024     | ECCV     | Mamba or RWKV: Exploring High-Quality and High-Efficiency Segment Anything Model            | Haobo Yuan, Xiangtai Li, Lu Qi, Tao Zhang, Ming-Hsuan Yang, Shuicheng Yan, Chen Change Loy   | [Paper](https://arxiv.org/abs/2406.19369)/[Code](https://github.com/HarborYuan/ovsam)                                                                                                                                                                                                                                |
-| 2024     | ICME     | PA-SAM: Prompt Adapter SAM for High-Quality Image Segmentation                              | Zhaozhi Xie, Bochen Guan, Weihao Jiang, Muyang Yi, Yue Ding, Hongtao Lu, Lei Zhang           | [Paper](https://arxiv.org/abs/2401.13051)/[Code](https://github.com/xzz2/pa-sam)                                                                                                                                                                                                                                     |
-| 2024     | PRICAI   | Prior Mask-Guided Highly Accurate<br>Dichotomous Image Segmentation                         | Shanfeng Zhou, Bo Yuan, Keren Fu , Hailun Zhang, Qijun Zhao                                  | [Paper](https://link.springer.com/chapter/10.1007/978-981-96-0125-7_10)/[Code](https://github.com/firewoodcutter/BSRNet)                                                                                                                                                                                                                                                                                                           |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2024 | ACM MM | **PI-SAM** | Segment Anything with Precise Interaction | Mengzhen Liu, Mengyu Wang, Henghui Ding, et al. | [Paper](https://openreview.net/pdf?id=lD9A7SS4BP) |
+| | | | *Improves SAM's interaction mechanism for more precise user control and better segmentation accuracy.* | | |
+| 2024 | CVPR | **SegNext** | Rethinking Interactive Image Segmentation with Low Latency High Quality | Qin Liu, Jaemin Cho, Mohit Bansal, et al. | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Liu_Rethinking_Interactive_Image_Segmentation_with_Low_Latency_High_Quality_and_CVPR_2024_paper.html) / [Code](https://github.com/uncbiag/SegNext) [![Stars](https://img.shields.io/github/stars/uncbiag/SegNext?style=social)](https://github.com/uncbiag/SegNext) |
+| | | | *Rethinks the trade-off between latency and quality in interactive segmentation for practical applications.* | | |
+| 2024 | ECCV | **CAT-SAM** | Conditional Tuning for Few-Shot Adaptation of SAM | Aoran Xiao, Weihao Xuan, Heli Qi, et al. | [Paper](https://arxiv.org/abs/2402.03631) / [Code](https://github.com/weihao1115/cat-sam) [![Stars](https://img.shields.io/github/stars/weihao1115/cat-sam?style=social)](https://github.com/weihao1115/cat-sam) |
+| | | | *Proposes conditional tuning approach for few-shot adaptation of SAM to new domains with limited samples.* | | |
+| 2024 | ICCV | **BA-SAM** | Scalable Bias-Mode Attention Mask for SAM | Yiran Song, Qianyu Zhou, Xiangtai Li, et al. | [Paper](https://openaccess.thecvf.com/content/CVPR2024/html/Song_BA-SAM_Scalable_Bias-Mode_Attention_Mask_for_Segment_Anything_Model_CVPR_2024_paper.html) |
+| | | | *Introduces bias-mode attention mask to improve SAM's segmentation quality with scalable design.* | | |
+| 2024 | ECCV | **OVSAM** | Mamba or RWKV: Exploring High-Quality and High-Efficiency SAM | Haobo Yuan, Xiangtai Li, Lu Qi, et al. | [Paper](https://arxiv.org/abs/2406.19369) / [Code](https://github.com/HarborYuan/ovsam) [![Stars](https://img.shields.io/github/stars/HarborYuan/ovsam?style=social)](https://github.com/HarborYuan/ovsam) |
+| | | | *Explores Mamba and RWKV architectures as alternatives to transformers for efficient high-quality segmentation.* | | |
+| 2024 | ICME | **PA-SAM** | Prompt Adapter SAM for High-Quality Image Segmentation | Zhaozhi Xie, Bochen Guan, Weihao Jiang, et al. | [Paper](https://arxiv.org/abs/2401.13051) / [Code](https://github.com/xzz2/pa-sam) [![Stars](https://img.shields.io/github/stars/xzz2/pa-sam?style=social)](https://github.com/xzz2/pa-sam) |
+| | | | *Designs a prompt adapter to enhance SAM's capability for high-quality image segmentation tasks.* | | |
+| 2024 | PRICAI | **BSRNet** | Prior Mask-Guided Highly Accurate DIS | Shanfeng Zhou, Bo Yuan, Keren Fu, et al. | [Paper](https://link.springer.com/chapter/10.1007/978-981-96-0125-7_10) / [Code](https://github.com/firewoodcutter/BSRNet) [![Stars](https://img.shields.io/github/stars/firewoodcutter/BSRNet?style=social)](https://github.com/firewoodcutter/BSRNet) |
+| | | | *Utilizes prior mask guidance to achieve highly accurate dichotomous image segmentation.* | | |
+
 ### 2023
-| **Year** | **Pub.** | **Title**                                                                                  | **Author**                                                                               | **Links**                                                                                     |
-| -------- | -------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| 2023     | NeurIPS  | Segment Anything in High Quality                                                           | Lei Ke, Mingqiao Ye, Martin Danelljan, Yifan Liu, Yu-Wing Tai, Chi-Keung Tang, Fisher Yu | [Paper](https://arxiv.org/abs/2306.01567)/[Code](https://github.com/SysCV/SAM-HQ)             |
-| 2023     | NeurIPS  | SegRefiner: Towards Model-Agnostic Segmentation Refinement with Discrete Diffusion Process | Mengyu Wang, Henghui Ding, Jun Hao Liew, Jiajun Liu, Yao Zhao, Yunchao Wei               | [Paper](https://arxiv.org/abs/2312.12425)/[Code](https://github.com/MengyuWang826/SegRefiner) |
+
+| Year | Pub. | 🏗️ Network | Title | Author | Links |
+|------|------|-------------|-------|--------|-------|
+| 2023 | NeurIPS | **SAM-HQ** | Segment Anything in High Quality | Lei Ke, Mingqiao Ye, Martin Danelljan, et al. | [Paper](https://arxiv.org/abs/2306.01567) / [Code](https://github.com/SysCV/SAM-HQ) [![Stars](https://img.shields.io/github/stars/SysCV/SAM-HQ?style=social)](https://github.com/SysCV/SAM-HQ) |
+| | | | *🌟 Enhances SAM with high-quality output for finer boundaries and more accurate segmentation masks.* | | |
+| 2023 | NeurIPS | **SegRefiner** | Towards Model-Agnostic Segmentation Refinement with Discrete Diffusion | Mengyu Wang, Henghui Ding, Jun Hao Liew, et al. | [Paper](https://arxiv.org/abs/2312.12425) / [Code](https://github.com/MengyuWang826/SegRefiner) [![Stars](https://img.shields.io/github/stars/MengyuWang826/SegRefiner?style=social)](https://github.com/MengyuWang826/SegRefiner) |
+| | | | *Proposes a model-agnostic refinement approach using discrete diffusion to improve segmentation quality.* | | |
+
+---
+
+## ⭐ Star History
+
+If you find this repository useful, please consider giving it a star ⭐!
+
+<p align="center">
+  <a href="https://star-history.com/#Tennine2077/Awesome-Dichotomous-Image-Segmentation&Date">
+    <img src="https://api.star-history.com/svg?repos=Tennine2077/Awesome-Dichotomous-Image-Segmentation&type=Date" alt="Star History Chart">
+  </a>
+</p>
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the DIS community**
+
+</div>
